@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Parisienne:regular");
+@import url("https://fonts.googleapis.com/css?family=Rosarivo:regular,italic");
+* {
+  box-sizing: border-box;
+  font-family: "Rosarivo";
+}
+body {
+  margin: 0;
+  padding: 20px 0;
+  background-color: #ffc107;
+}
+h1 {
+    text-align: center;
+}
+.p1 {
+  background-image: url("https://i.ebayimg.com/images/g/D00AAOSwK1xfrCzb/s-l1600.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: contain;
+}
+.p2 {
+  background-image: url("https://m.media-amazon.com/images/I/81OphLK6GKL.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.p3 {
+  background-image: url("https://jnpprinting.co.uk/cdn/shop/products/WalkingDead_2048x.jpg?v=1642791111");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.p4 {
+  background-image: url("https://m.media-amazon.com/images/I/71nTji5ucWL.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  border: 1px black solid;
+  margin: 0;
+  padding: 0;
+  min-height: 400px;
+  /* max-width: 100% !important; */
+}
+.item {
+  /* background-color: lightgray; */
+  border: 0.5px black solid;
+  height: 300px;
+  position: relative;
+}
+.row {
+  min-height: 100%;
+  margin: 0;
+}
+button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
